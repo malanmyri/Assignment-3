@@ -98,6 +98,7 @@ def main():
     
     trainer.train()
     create_plots(trainer, "task2")
+    testing = trainer.dataloader_test
 
 if __name__ == "__main__":
     main()
